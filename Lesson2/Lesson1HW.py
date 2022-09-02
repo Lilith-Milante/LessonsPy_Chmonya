@@ -2,10 +2,12 @@
 import math
 
 day_week = int(input('Enter the day of week: '))
+while day_week > 7 or day_week < 1:
+    day_week = int(input('The day is not exist! Try enter again: '))
 if day_week == 6 or day_week == 7:
-    print('Weekend!')
+    print('This is weekend!')
 else:
-    print('No')
+    print('This is not a weekend')
 
 # 2. Напишите программу для проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
@@ -24,8 +26,8 @@ else:
 # - x=2; y=4-> 1
 # - x=-34; y=-30 -> 3
 
-x = int(input('Enter x: '))
-y = int(input('Enter y: '))
+x = float(input('Enter x: '))
+y = float(input('Enter y: '))
 
 if x > 0 and y > 0:
     print('1')
@@ -54,11 +56,11 @@ if quarter_num == 4: print('range of points - x > 0, y < 0')
 
 # 5. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
-x1 = int(input('Enter x1: '))
-y1 = int(input('Enter y1: '))
+x1 = float(input('Enter x1: '))
+y1 = float(input('Enter y1: '))
 
-x2 = int(input('Enter x2: '))
-y2 = int(input('Enter y2: '))
+x2 = float(input('Enter x2: '))
+y2 = float(input('Enter y2: '))
 
 result = float(math.sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2)))
 print(round(result, 2))

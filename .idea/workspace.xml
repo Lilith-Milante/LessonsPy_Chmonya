@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="" />
+    <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson2/Lesson1HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2/Lesson1HW.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662063572141</updated>
     </task>
+    <task id="LOCAL-00001" summary="create project and add solutions">
+      <created>1662145471775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662145471775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project and add solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project and add solutions" />
   </component>
 </project>
