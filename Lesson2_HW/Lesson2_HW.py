@@ -45,17 +45,17 @@ for i in range(n):
     n_list.append(random.randint(-n, n))
 print(n_list)  # создали и распечатали лист
 
-# mult = open('Positions.txt', 'w')
-# positions = random.randint(3, n)  # создаёт список позиций элементов, связываем это переменной mult
-# for i in range(positions):
-#    mult.write(str(random.randint(1, n - 1)))
-# mult.write('\n')
-# mult.close()
+mult = open('Positions.txt', 'w')
+positions = random.randint(2, n)  # создаёт список позиций элементов, связываем это переменной mult
+for i in range(positions):
+    mult.write(str(random.randint(1, n - 1)))
+    mult.write('\n')
+mult.close()
 
 generation = 1
 with open('Positions.txt', 'r') as gen:
     for i in gen:
-        generation *= int(i)
+        generation *= n_list[int(i) - 1]
 print(f'Произведение элементов на заданных позициях: {generation}')
 
 # 5. Реализуйте алгоритм перемешивания списка.
