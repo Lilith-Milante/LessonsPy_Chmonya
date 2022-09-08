@@ -18,7 +18,6 @@ for i in range(1, num_N + 1):
     mult_result.append(mult_step)
 print(mult_result)
 
-
 # 3. Задайте список из n чисел последовательности $(1+\frac 1 n)^n$ и выведите на экран их сумму.
 # Для n = 6: {1: 4, 2: 7, 3: 10, 4: 13, 5: 16, 6: 19}
 
