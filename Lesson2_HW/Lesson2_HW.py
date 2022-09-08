@@ -1,7 +1,7 @@
 # 1. Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
 import random
 
-number = input('Enter n: ')
+number = input('Enter real number: ')
 sum = 0
 for i in number:
     if i != '.':
@@ -64,5 +64,21 @@ for i in range(n):
     n_list.append(random.randint(-n, n))
 print(n_list)
 
-random.shuffle(n_list)
+random.shuffle(n_list) # используя команду для перемешивания
+print(n_list)
+
+# если алгоритмом
+
+n = int(input('Enter N: '))
+n_list = []
+for i in range(n):
+    n_list.append(random.randint(-n, n))
+temp = 0
+print(n_list)
+for i in range(len(n_list)):
+    elem_1 = random.randint(0, len(n_list) - 1)
+    elem_2 = random.randint(0, len(n_list) - 1)
+    temp = n_list[elem_1]
+    n_list[elem_1] = n_list[elem_2]
+    n_list[elem_2] = temp
 print(n_list)
