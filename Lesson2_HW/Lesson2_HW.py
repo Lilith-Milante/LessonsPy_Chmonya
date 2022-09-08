@@ -25,7 +25,6 @@ print(mult_result)
 def func(n):
     return (1 + 1 / n) ** n
 
-
 n = int(input('Enter n: '))
 dict_seq = {}
 for i in range(1, n + 1):
@@ -62,3 +61,9 @@ print(f'Произведение элементов на заданных поз
 
 n = int(input('Enter N: '))
 n_list = []
+for i in range(n):
+    n_list.append(random.randint(-n, n))
+print(n_list)
+
+random.shuffle(n_list)
+print(n_list)
