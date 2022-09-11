@@ -64,7 +64,6 @@ print(bin(num_dec))
 
 num = int(input('Enter the number: '))
 
-
 def fibonacci_nums(num):
     f_nums = []
     num_1, num_2 = 1, 1
@@ -77,6 +76,5 @@ def fibonacci_nums(num):
         f_nums.insert(0, num_1)
         num_1, num_2 = num_2, num_1 - num_2
     return f_nums
-
 
 print(fibonacci_nums(num))
