@@ -42,24 +42,28 @@ list_4_float = [1.35, 6.87, 4.5, -3.21, -8.7]
 print(list_4_float)
 list_5 = []
 for i in list_4_float:
-    list_5.append(i % 1 * 100) # добавляет остаток от деления на 1, то есть дробную часть
+    list_5.append(i % 1 * 100)  # добавляет остаток от деления на 1, то есть дробную часть
 
 print(list_5)
 print(round(max(list_5) - min(list_5)), '\t')
 
-
 # 4. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 
-num_dec = input('Enter the number dec: ')
-num_bin = " "
-for i in num_dec:
-    num_bin = str(i % 2) + num_bin
-print(num_bin)
+num_dec = int(input('Enter the number dec: '))
+
+def bin(num_dec):
+    num_bin = " "
+    while num_dec != 0:
+        num_bin += str(num_dec % 2)
+        num_dec //= 2
+    return ''.join(reversed(num_bin))
+print(bin(num_dec))
 
 # 5. Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 # если k = 8, то [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
 
 num = int(input('Enter the number: '))
+
 
 def fibonacci_nums(num):
     f_nums = []
@@ -69,9 +73,10 @@ def fibonacci_nums(num):
         num_1, num_2 = num_2, num_1 + num_2
 
     num_1, num_2 = 0, 1
-    for i in range (num + 1):
+    for i in range(num + 1):
         f_nums.insert(0, num_1)
         num_1, num_2 = num_2, num_1 - num_2
     return f_nums
+
 
 print(fibonacci_nums(num))
