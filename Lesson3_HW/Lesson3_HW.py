@@ -50,13 +50,15 @@ print(round(max(list_5) - min(list_5)), '\t')
 
 # 4. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 
+num_dec = int(input('Enter the number dec: '))
+
 def bin(num_dec):
     num_bin = " "
     while num_dec != 0:
         num_bin += str(num_dec % 2)
         num_dec //= 2
     return ''.join(reversed(num_bin))
-print(bin(num_bin))
+print(bin(num_dec))
 
 # 5. Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 # если k = 8, то [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
