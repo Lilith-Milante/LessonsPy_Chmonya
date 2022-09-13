@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LessonsPy.iml" filepath="$PROJECT_DIR$/.idea/LessonsPy.iml" />
+
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lessons_Py.iml" filepath="$PROJECT_DIR$/.idea/Lessons_Py.iml" />
+>>>>>>> origin/main
     </modules>
   </component>
 </project>
