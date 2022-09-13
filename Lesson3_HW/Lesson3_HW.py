@@ -47,7 +47,6 @@ for i in list_4_float:
 print(list_5)
 print(round(max(list_5) - min(list_5)), '\t')
 
-
 # 4. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 
 num_dec = int(input('Enter the number dec: '))
