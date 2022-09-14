@@ -47,6 +47,13 @@ for i in list_4_float:
 print(list_5)
 print(round(max(list_5) - min(list_5)), '\t')
 
+# можно так:
+
+some_list = [input() for _ in range(int(input()))]
+a = [float('0.' + (i.split('.')[1])) for i in some_list if '.' in i]
+print(a)
+print(max(a) - min(a))
+
 # 4. Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 
 num_dec = int(input('Enter the number dec: '))
@@ -58,6 +65,11 @@ def bin(num_dec):
         num_dec //= 2
     return ''.join(reversed(num_bin))
 print(bin(num_dec))
+
+# var 2
+
+a = int(input('Enter a: '))
+print(str(bin(a))[2:])
 
 # 5. Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 # если k = 8, то [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
