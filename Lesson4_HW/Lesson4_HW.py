@@ -33,8 +33,11 @@ print(set(list_2)) # преобразуем лист во множество
 # Пример:  - k=2 => 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0
 
 k = int(input('Enter degree k: '))
-
-koef = np.random.randint(0, 100)
+list_3 = []
+for i in range(k):
+    сoef = random.randint(0, 100)
+    list_3.append(coef)
+print(list_3)
 
 
 # 5. Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов.
