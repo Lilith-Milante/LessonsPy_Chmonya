@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
+      <change afterPath="$PROJECT_DIR$/Lesson4_HW/Result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/Lesson5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5_HW/Lesson5_HW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3_HW/Lesson3_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3_HW/Lesson3_HW.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson4_HW/Lesson4_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4_HW/Lesson4_HW.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +44,27 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Lesson5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lessons_Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson5/Lesson5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="LessonsPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +86,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Lesson5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663190731997</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create project and add solutions">
+      <created>1663193264055</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663193264055</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

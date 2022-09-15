@@ -90,3 +90,19 @@ def fibonacci_nums(num):
     return f_nums
 
 print(fibonacci_nums(num))
+
+# var 2
+
+k = int(input("Inset k: "))
+
+fibonacciList = [0]*(k*2+1)
+fibonacciList[k] = 0
+fibonacciList[k+1] = 1
+
+for i in range(k+2, len(fibonacciList)):
+    fibonacciList[i] = fibonacciList[i-2]+fibonacciList[i-1]
+
+for i in range(k, -1, -1):
+    fibonacciList[i] = fibonacciList[i+2]-fibonacciList[i+1]
+
+print(fibonacciList)
