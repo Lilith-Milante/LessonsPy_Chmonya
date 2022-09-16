@@ -1,15 +1,14 @@
 # 1. Вычислить число c заданной точностью d.
 import math
 import random
-import numpy as np
-
-with open('Pol_1.txt') as pl_1, open('Pol_2.txt') as pl_2:
-
-
-exit()
 
 n = float(input('Enter n: '))
-d = float(input('Enter d (10\u207B\u00B9; 10\u207B\u00B9\u2070): '))
+d = float(input('Enter d (10\u207B\u00B9; 10\u207B\u00B9\u2070): ')) # выводим степени кодировкой
+
+s = str(d)
+#print(abs(s.find('.') - len(s)) - 1)
+f = abs(s.find('.') - len(s) - 1) # находим число знаков после запятой
+print(round(n, f))
 
 # 2. Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
 
