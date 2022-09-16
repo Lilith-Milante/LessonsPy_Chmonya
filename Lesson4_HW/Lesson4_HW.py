@@ -3,33 +3,8 @@ import math
 import random
 import numpy as np
 
-k = int(input("Enter degree k: "))
+with open('Pol_1.txt') as pl_1, open('Pol_2.txt') as pl_2:
 
-def polynomial(k):
-    s = ''
-    r = 0
-    for i in range(k, 0, -1):
-        r = random.randint(0, 100)
-        if r == 0:
-            s += ''
-        elif r == 1:
-            s += str(f'x^{i} + ')
-        elif i != 1:
-            s += str(f'{r}x^{i} + ')
-        else:
-            s += str(f'{r}x ')
-    r = random.randint(0, 100)
-    if r != 0:
-        s += str(f'+ {r} = 0')
-    else:
-        s += str(f'= 0')
-    return s
-
-plmn = (polynomial(k))
-print(plmn)
-
-with open('Result.txt', 'w') as result:
-    result.write(plmn)
 
 exit()
 
@@ -58,6 +33,32 @@ print(set(list_2))  # преобразуем лист во множество
 # 4. Задана натуральная степень k. Сформировать случайным образом список коэффициентов (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
 # Пример:  - k=2 => 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0
 
+k = int(input("Enter degree k: "))
 
+def polynomial(k):
+    s = ''
+    r = 0
+    for i in range(k): # степени
+        r = random.randint(0, 100) # генерация коэффициентов
+        if r == 0:
+            s += ''
+        elif r == 1:
+            s += str(f'x^{i} + ')
+        elif i != 1:
+            s += str(f'{r}x^{i} + ')
+        else:
+            s += str(f'{r}x ')
+    r = random.randint(0, 100) # генерация свободного коэффициента
+    if r != 0:
+        s += str(f'+ {r} = 0')
+    else:
+        s += str(f'= 0')
+    return s
+
+plmn = (polynomial(k))
+print(plmn)
+
+with open('Result.txt', 'w') as result:
+    result.write(plmn)
 
 # 5. Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, содержащий сумму многочленов.

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
-      <change afterPath="$PROJECT_DIR$/Lesson4_HW/Result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/Lesson5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5_HW/Lesson5_HW.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4_HW/Pol_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4_HW/Pol_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4_HW/Result" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3_HW/Lesson3_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3_HW/Lesson3_HW.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson4_HW/Lesson4_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4_HW/Lesson4_HW.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663193264055</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create project and add solutions">
+      <created>1663279334867</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663279334867</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create project and add solutions">
+      <created>1663285704573</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663285704573</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
