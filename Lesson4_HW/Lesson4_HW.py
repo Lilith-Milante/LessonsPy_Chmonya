@@ -9,6 +9,18 @@ s = str(d)
 #print(abs(s.find('.') - len(s)) - 1)
 f = abs(s.find('.') - len(s) - 1) # находим число знаков после запятой
 print(round(n, f))
+def num_d(n, d):
+    return (n // d) * d
+
+res = num_d(n, d)
+print(res)
+#
+
+d = str(input('Введите значение d в условии (10^(-1) <= d <= 10^(-10): '))
+d = int(len(d) - 2)
+for i in range(int(len(d))):
+    i != '.'
+res = round(n, i)
 
 # 2. Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
 
