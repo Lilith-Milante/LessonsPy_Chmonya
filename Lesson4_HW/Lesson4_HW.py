@@ -1,26 +1,27 @@
-# 1. Вычислить число c заданной точностью d.
 import math
 import random
+
+# 1. Вычислить число c заданной точностью d.
+
+# Решение на округлении до чисел после запятой. Работает некорректно(
 
 n = float(input('Enter n: '))
 d = float(input('Enter d (10\u207B\u00B9; 10\u207B\u00B9\u2070): ')) # выводим степени кодировкой
 
-s = str(d)
-#print(abs(s.find('.') - len(s)) - 1)
+s = str(d) # переводим точность в строку
 f = abs(s.find('.') - len(s) - 1) # находим число знаков после запятой
 print(round(n, f))
+
+# Если считать точность
+
+n = float(input('Enter n: '))
+d = float(input('Enter d (10\u207B\u00B9; 10\u207B\u00B9\u2070): '))
+
 def num_d(n, d):
     return (n // d) * d
 
-res = num_d(n, d)
-print(res)
-#
-
-d = str(input('Введите значение d в условии (10^(-1) <= d <= 10^(-10): '))
-d = int(len(d) - 2)
-for i in range(int(len(d))):
-    i != '.'
-res = round(n, i)
+result = num_d(n, d)
+print(result)
 
 # 2. Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
 
