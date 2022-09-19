@@ -113,7 +113,7 @@ list8 = list(map(lambda x:x+10, list8))
 
 print(list8)
 
-data1 =  list(map(int, input().split()))
+data1 = list(map(int, input().split()))
 print(data1)
 
 # filter - функция, этер объект, - применяем функ к каждому элементу
