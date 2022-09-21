@@ -1,7 +1,5 @@
 # 1. Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
 
-
-
 str = input('Enter str: ').replace('абв', '').split(' ')
 result = ' '.join(list(filter(lambda x: x != '', str)))
 print(result)
@@ -120,3 +118,29 @@ print_map()
 print(result_check(),'wins!')
 
 # 4. Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
+
+with open('start.txt', 'w') as data:
+    data.write(input('Enter massage: '))
+
+f = open('start.txt', 'r')
+data_2 = f.read()
+f.close()
+
+def RLE(data_2):
+    res = ''
+    count = 1
+    for i in range(len(data_2) - 1):
+        if data_2[i + 1] == data_2[i]:
+            count += 1
+        else:
+            res += str(count) + data_2[i]
+            count = 1
+    res += str(count) + data_2[i]
+    return res
+
+print(f'Original text: {data_2}')
+RLE_res = (RLE(data_2))
+print(f'Compressed text: {RLE_res}')
+
+with open('end.txt', 'w') as data_3:
+    data_3.write(RLE_res)
