@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
-      <change afterPath="$PROJECT_DIR$/Lection_3/Lection_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3/model_mult.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3/model_sub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3_task2/data_provider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3_task2/html_creater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3_task2/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3_task2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3_task2/user_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection_3_task2/xml_gerenator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/Lesson3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/Lesson3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson6_HW/Lesson6_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6_HW/Lesson6_HW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663780944806</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create project and add solutions">
+      <created>1663794424828</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663794424828</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

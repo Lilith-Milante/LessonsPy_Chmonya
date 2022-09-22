@@ -1,0 +1,5 @@
+<xml>
+    <temperature units = "f">32.0</temperature>
+    <wind_speed_view units = "m/s">9</wind_speed_view>
+    <preassure units = "mmHg">730</preassure>
+ </xml>

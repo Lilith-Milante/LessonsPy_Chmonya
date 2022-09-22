@@ -37,10 +37,10 @@ try:
 except:
     print(-1)
 
-    some_list = [input() for _ in range(int(input('Введите кол-во элементов: ')))]
-    some_str = input('Введите строку: ')
-    start = some_list.index(some_str) + 1
-    try:
-        print(some_list.index(some_str, start, -1))
-    except:
-        print(-1)
+some_list = [input() for _ in range(int(input('Введите кол-во элементов: ')))]
+some_str = input('Введите строку: ')
+start = some_list.index(some_str) + 1
+try:
+    print(some_list.index(some_str, start, -1))
+except:
+    print(-1)

@@ -30,3 +30,15 @@ print(plmn)
 
 with open('Result.txt', 'w') as result:
     result.write(str(plmn))
+
+# 2. Дана последовательность чисел.Получить список уникальных элементов заданной последовательности.
+#*Пример: [1, 2, 3, 5, 1, 5, 3, 10] = > [2, 10]
+
+list_2 = [i for i in input('Enter numbers: ').split()]
+list_3 = []
+
+def delete_nums(list_2):
+    for i in range(len(list_2)):
+        if list_2.count(i) == 1:
+            list_3.append(i)
+print(list_3)

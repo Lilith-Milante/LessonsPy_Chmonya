@@ -6,68 +6,42 @@
 #
 # 1 - 2 * 3 = > -5;
 
-symbol = {}
-result = 0
-str =''
-str = input('Введите строку с формулой: ').split()
-i = 0
-while len(str) != 1:
-    if str[i] == '*':
-        index = str.index('*')
-        str[index] = int(str[index-1]) * int(str[index+1])
-        str.remove(str[index-1])
-        str.remove(str[index])
-        i = 0
-        #print(str)
-    elif str[i] == '/':
-        index = str.index('/')
-        str[index] = int(str[index - 1]) / int(str[index + 1])
-        str.remove(str[index - 1])
-        str.remove(str[index])
-        i = 0
-        #print(str)
-    i += 1
+list_1 = [i for i in input('Enter formula: ').split()]
+while len(list_1) > 1:
+    if list_1.count('*') != 0:
+        index = list_1.index('*')
+        list_1[index] = int(list_1[index - 1]) * int(list_1[index + 1])
+        list_1.pop(index - 1)
+        list_1.pop(index)
 
-print(str)
+    elif list_1.count('/') != 0:
+        index = list_1.index('/')
+        list_1[index] = int(list_1[index - 1]) / int(list_1[index + 1])
+        list_1.pop(index - 1)
+        list_1.pop(index)
 
-formula = [i for i in input('Введите строку: ').split()]
-i = 0
-while i < len(formula) - 1:
-    if formula[i] == '*':
-        index = formula.index('*')
-        formula[index] = int(formula[index - 1]) * int(formula[index + 1])
-        formula.pop(index - 1)
-        formula.pop(index)
-        print(formula)
-        i = 0
-    elif formula[i] == '/':
-        index = formula.index('/')
-        formula[index] = int(formula[index - 1]) // int(formula[index + 1])
-        formula.pop(index - 1)
-        formula.pop(index)
-        print(formula)
-        i = 0
-    i += 1
+    elif list_1.count('-') != 0:
+        index = list_1.index('-')
+        list_1[index] = int(list_1[index - 1]) - int(list_1[index + 1])
+        list_1.pop(index - 1)
+        list_1.pop(index)
 
-i = 0
-while len(formula) > 1:
-    if formula[i] == '+':
-        index = formula.index('+')
-        formula[index] = int(formula[index - 1]) + int(formula[index + 1])
-        formula.pop(index - 1)
-        formula.pop(index)
-        print(formula)
-        i = 0
-    elif formula[i] == '-':
-        index = formula.index('-')
-        formula[index] = int(formula[index - 1]) - int(formula[index + 1])
-        formula.pop(index - 1)
-        formula.pop(index)
-        print(formula)
-        i = 0
-    i += 1
+    elif list_1.count('+') != 0:
+        index = list_1.index('+')
+        list_1[index] = int(list_1[index - 1]) + int(list_1[index + 1])
+        list_1.pop(index - 1)
+        list_1.pop(index)
 
-print(formula)
+print(list_1)
 
 # 2. Дана последовательность чисел.Получить список уникальных элементов заданной последовательности.
 #*Пример: [1, 2, 3, 5, 1, 5, 3, 10] = > [2, 10]
+
+list_2 = [i for i in input('Enter numbers: ').split()]
+
+def delete_num(args):
+    once = [i for i in args if args.count(i) == 1]
+    return once
+
+print(list_2)
+print(delete_num(list_2))
