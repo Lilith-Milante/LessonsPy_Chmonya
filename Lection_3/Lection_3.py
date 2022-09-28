@@ -1,9 +1,5 @@
 # написать программу по сумме чисел
 
-
-
-
-exit()
 sum = lambda a, b: a + b
 
 x = int(input('x: '))
