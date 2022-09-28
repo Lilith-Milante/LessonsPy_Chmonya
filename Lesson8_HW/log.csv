@@ -1,0 +1,15 @@
+00:16;'\Search.. '\;инженер;False
+00:20;'\Search.. '\;продавец;False
+00:21;'\Search.. '\;Иван;True
+00:37;'\Search.. '\;инженер;True
+00:39;'\Added to catalog:'\;{'name': 'Л', 'number': 'и', 'work': 'з'}
+00:47;'\Added to catalog:'\;{'name': 'Л', 'number': 'и', 'work': 'з'}
+00:49;'\Added to catalog:'\;{'name': 'Лиза', 'number': '69784868', 'work': 'врач'}
+00:53;'\Added to catalog:'\;{'name': 'Лиза', 'number': '569898', 'work': 'геолог'}
+00:56;'\Added to catalog:'\;{'name': 'Лиза', 'number': '79865746334', 'work': 'геолог'}
+00:58;'\Added to catalog:'\;<zip object at 0x0000022B215B7980>
+01:00;'\Added to catalog:'\;<zip object at 0x000001DD44927980>
+01:01;'\Added to catalog:'\;[('name', 'ghh'), ('number', '65'), ('work', 'jku')]
+01:10;'\Added to catalog:'\;{'name': 'Лиза', 'number': '79264674', 'work': 'геолог'}
+01:25;'\Added to catalog:'\;['Лиза', '8956789456', 'техник']
+01:26;'\Added to catalog:'\;['Аня', '+79345672245', 'архитектор']

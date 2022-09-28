@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
-      <change afterPath="$PROJECT_DIR$/Lesson7/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson7_HW/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson7_HW/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson7_HW/main" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8/Lesson8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/get_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/info.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/input_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8_HW/search_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lection_3/Lection_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lection_3/Lection_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson7/Lesson7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson7/Lesson7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8_HW/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8_HW/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8_HW/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8_HW/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8_HW/info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8_HW/info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8_HW/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8_HW/input_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663880168381</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="create project and add solutions">
+      <created>1664398952942</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664398952942</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
