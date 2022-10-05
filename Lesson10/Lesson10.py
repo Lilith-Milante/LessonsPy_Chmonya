@@ -31,3 +31,48 @@ print(button.click_count())
 button.reset()
 button.click()
 print(button.click_count())
+
+# class OddEvenSeparator:
+
+# def __init__(self) -> None:
+# self.some_list =[]
+
+
+# def add_number(self, num):
+# self.some_list.append(num)
+
+# def even(self):
+# return list(filter(lambda x: not x%2, self.some_list ))
+
+# def odd(self):
+# return list(filter(lambda x: x%2, self.some_list ))
+
+# separator = OddEvenSeparator()
+# separator.add_number(1)
+# separator.add_number(5)
+# separator.add_number(6)
+# separator.add_number(8)
+# separator.add_number(3)
+# print(" ".join(map(str, separator.even())))
+# print(" ".join(map(str, separator.odd())))
+
+class MinMaxWordFinder:
+
+    def __init__(self) -> None:
+        self.some_list =[]
+
+    def add_sentence(self, text: str):
+        for word in text.split():
+            self.some_list.append(word)
+
+    def shortest_words(self):
+        return [x for x in self.some_list if len(x) == min(map(len, self.some_list))]
+
+    def longest_words(self):
+        return [x for x in self.some_list if len(x) == max(map(len, self.some_list))]
+
+finder = MinMaxWordFinder()
+finder.add_sentence('hello abc world')
+finder.add_sentence("def asdf qwert")
+print(' '.join(finder.shortest_words()))
+print(' '.join(finder.longest_words()))
