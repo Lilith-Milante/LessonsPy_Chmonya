@@ -7,7 +7,8 @@ list_1 = [1, 2, 'third', 'four', 5, 'six', 7]
 list_2 = [input() for _ in range(int(input('Enter amount elems: ')))]
 
 def to_dict(lst):
-    return {element: element for element in lst} # dict comprehension
+    #return {element: element for element in lst} # dict comprehension
+    return {key: value for key, value in zip(lst, lst)}
 
 print(to_dict(list_1))
 print(to_dict(list_2))
