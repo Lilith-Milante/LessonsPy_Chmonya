@@ -97,4 +97,41 @@ print(int(r.get_mass()))
 # проверить работу примера на реальных данных: создать экземпляры класса Position,
 # передать данные, проверить значения атрибутов, вызвать методы экземпляров.
 
+class Worker:
+    
+    def __init__(self, name, surname, position, wage, bonus):
+        self.name = name
+        self.surname = surname
+        self.position = position
+        self._income = {'wage': wage, 'bonus': bonus}
+        
+class Position(Worker):
+    
+    def get_full_name(self):
+        return f'{self.name} {self.surname}'
+        
+    def get_total_income(self):
+        return f'{self._income} for {self.position}'
+        
+atr = Position('Ivan', 'Ivanov', 'an ingeneer', '45 000', 'absence')
+atr1 = Position('Anna', 'Petrova', 'a photograph', '40 000', '7 000')
+
+print(atr.get_full_name())
+print(atr.get_total_income())
+
+print(atr1.get_full_name())
+print(atr1.get_total_income())
+
+
+# Реализуйте базовый класс Car:
+# у класса должны быть следующие атрибуты: speed, color, name, is_police (булево). А
+# также методы: go, stop, turn(direction), которые должны сообщать, что машина
+# поехала, остановилась, повернула (куда);
+# опишите несколько дочерних классов: TownCar, SportCar, WorkCar, PoliceCar;
+# добавьте в базовый класс метод show_speed, который должен показывать текущую
+# скорость автомобиля;
+# для классов TownCar и WorkCar переопределите метод show_speed. При значении
+# скорости свыше 60 (TownCar) и 40 (WorkCar) должно выводиться сообщение о
+# превышении скорости.
+
 
