@@ -1,3 +1,5 @@
+import numpy
+
 class Person:
     def __init__(self, first_name, second_name, last_name, dict_phones: dict):
         self.FIO = [first_name, second_name,last_name]
@@ -44,9 +46,60 @@ def send_sms(*args):
         else:
             print(f'Sms did not send to {el.get_name()}')
 
-person1 = Person("Ivan", "Ivanovich", "Ivanov", {'private': 7543})
-person2 = Person("Alex", "Ivanovich", "Borisov", {'private': 73543, 'work': 15678})
-company1 = Company("Ozon", 'Marketplace', {'contact':6789}, person1,person2)
-company2 = Company("Azon", 'Market', {'private':6789}, person1)
+person1 = Person('Ivan', 'Ivanovich', 'Ivanov', {'private': 123, 'work': 456})
+person2 = Person('Ivan', 'Petrovich', 'Petrov', {'private': 789})
+person3 = Person('Ivan', 'Petrovich', 'Sidorov', {'work': 789})
+person4 = Person('John', 'Unknown', 'Doe', {})
+company1 = Company('Bell', '000', {'Contact': 111}, person3, person4)
+company2 = Company('Cell', 'A0', {'non_contact': 222}, person2, person3)
+company3 = Company('Dell', 'Ltd', {'non_contact': 333}, person2, person4)
 
-send_sms(person1, person2, company1, company2)
+send_sms(person1, person2, person3, company1, company2, company3)
+
+# task 2
+
+class MinStat:
+
+    def __init__(self):
+        self.list = []
+
+    def add_number(self, num):
+        self.list.append(num)
+
+    def result(self):
+        min(self.list)
+
+class MaxStat:
+
+    def __init__(self):
+        self.list = []
+
+    def add_number(self, num):
+        self.list.append(num)
+
+    def result(self):
+        min(self.list)
+
+class AverageStat:
+
+    def __init__(self):
+        self.list = []
+
+    def add_number(self, num):
+        self.list.append(num)
+
+    def result(self):
+        self.list_1 = numpy.average(self.list)
+
+
+values = [1, 2, 3, 4, 5]
+
+mins = MinStat()
+maxs = MaxStat()
+average = AverageStat()
+for v in values:
+    mins.add_number(v)
+    maxs.add_number(v)
+    average.add_number(v)
+
+print(mins.result(), maxs.result(), '{:<05.3}'.format(numpy.average.result()))
