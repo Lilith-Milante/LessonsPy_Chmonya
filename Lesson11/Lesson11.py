@@ -67,7 +67,7 @@ class MinStat:
         self.list.append(num)
 
     def result(self):
-        min(self.list)
+        return min(self.list)
 
 class MaxStat:
 
@@ -78,7 +78,7 @@ class MaxStat:
         self.list.append(num)
 
     def result(self):
-        min(self.list)
+        return max(self.list)
 
 class AverageStat:
 
@@ -89,7 +89,8 @@ class AverageStat:
         self.list.append(num)
 
     def result(self):
-        self.list_1 = numpy.average(self.list)
+        return numpy.average(self.list)
+        #return self.list_1
 
 
 values = [1, 2, 3, 4, 5]
@@ -97,9 +98,12 @@ values = [1, 2, 3, 4, 5]
 mins = MinStat()
 maxs = MaxStat()
 average = AverageStat()
-for v in values:
-    mins.add_number(v)
-    maxs.add_number(v)
-    average.add_number(v)
+for i in values:
+    mins.add_number(i)
+    maxs.add_number(i)
+    #numpy.average.add_number(i)
 
-print(mins.result(), maxs.result(), '{:<05.3}'.format(numpy.average.result()))
+#print(mins.result(), maxs.result(), '{}'.format(numpy.average.result()))
+print(mins.result())
+print(maxs.result())
+print(numpy.average.result())

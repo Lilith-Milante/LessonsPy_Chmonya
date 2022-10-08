@@ -1,3 +1,5 @@
+import time
+
 # 1. Создать класс TrafficLight (светофор):
 # определить у него один атрибут color (цвет) и метод running (запуск);
 # атрибут реализовать как приватный;
@@ -20,13 +22,18 @@ class TrafficLight():
         while self.mode < 3:
             if self.mode == 0:
                 TrafficLight.__color = red
+                print('red')
+                time.sleep(7)
                 self.mode += 1
             elif self.mode == 1:
                 TrafficLight.__color = yellow
+                print('yellow')
+                time.sleep(2)
                 self.mode += 1
             if self.mode == 2:
                 TrafficLight.__color = green
                 print('green')
+                time.sleep(3)
                 self.mode += 1
 
 
