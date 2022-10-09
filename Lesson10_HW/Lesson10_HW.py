@@ -105,6 +105,8 @@ class TownCar(Car):
 
 # class SportCar(Car):
 
+# class Police(Car):
+
 class WorkCar(Car):
 
     def show_speed(self):
@@ -119,12 +121,17 @@ class PoliceCar(Car):
         if self.is_police: print('Give me your docs')
         else: print('Drive calmly')
 
-a = TownCar(50, 'Ford', 'Violet', False)
-print(a.show_speed())
-print(a.get_name_color())
+Car1 = TownCar(50, 'Ford', 'Violet', False)
+print(Car1.get_name_color())
+print(Car1.show_speed())
 
-a = PoliceCar(50, 'Audi', 'Red', True)
-a = PoliceCar(50, 'Audi', 'Red', False)
-print(a.get_name_color())
-print(a.show_speed())
-print(a.police_car())
+
+Car2 = PoliceCar(50, 'Audi', 'Red', True)
+print(Car2.get_name_color())
+print(Car2.show_speed())
+print(Car2.police_car())
+
+Car3 = PoliceCar(80, 'Toyota', 'Black', False)
+print(Car3.get_name_color())
+print(Car3.show_speed())
+print(Car3.police_car())
