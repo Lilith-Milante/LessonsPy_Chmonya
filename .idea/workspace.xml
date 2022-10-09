@@ -4,7 +4,6 @@
     <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson10_HW/Lesson10_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10_HW/Lesson10_HW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson11/Lesson11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson11/Lesson11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665187515113</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="create project and add solutions">
+      <created>1665191104782</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1665191104782</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
