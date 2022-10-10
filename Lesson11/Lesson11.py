@@ -101,7 +101,7 @@ for i in values:
     maxs.add_number(i)
     average.add_number(i)
 
-#print(mins.result(), maxs.result(), '{}'.format(numpy.average.result()))
 print(mins.result())
 print(maxs.result())
 print(average.result())
+print(type(average.result())) # <class 'numpy.float6'>
