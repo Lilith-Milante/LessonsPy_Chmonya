@@ -136,3 +136,40 @@ print(Car3.get_name_color())
 print(Car3.show_speed())
 Car3.turn_direction()
 Car3.go()
+
+# 5. Реализовать класс Stationery:
+
+class Stationery:
+
+    def __init__(self, title):
+        self.title = title
+
+    def draw(self):
+        return ('Start to draw')
+
+class Pen(Stationery):
+
+    def draw(self):
+        return (f'How about focus with {self.title} ?')
+
+class Pencil(Stationery):
+
+    def draw(self):
+        return (f'I will make this {self.title} disappear')
+
+class Handle(Stationery):
+
+    def draw(self):
+        return (f'Taaaaa ... {self.title} evaporated')
+
+Thing1 = Pencil('pencil')
+print(Thing1.draw())
+
+Thing2 = Stationery('car')
+print(Thing2.draw())
+
+Thing3 = Handle('hand')
+print(Thing3.draw())
+
+Thing4 = Pen('finger')
+print(Thing4.draw())
