@@ -87,51 +87,52 @@ class Car:
     def show_speed(self):
         return self.speed
 
-    def go (self):
-        print('An auto grove')
+    def go(self):
+        print ('An auto grove')
 
-    def stop (self):
-        print('An auto stopped')
+    def stop(self):
+        print ('An auto stopped')
 
-    # def turn_direction(self):
+    def turn_direction(self):
+        if self.is_police: print ('Right turn')
+        else: print ('Left turn')
 
 class TownCar(Car):
 
     def show_speed(self):
         if self.speed > 60:
-            print('Over speed!')
+            return ('Over speed!')
         else:
             return self.speed
-
-# class SportCar(Car):
-
-# class Police(Car):
 
 class WorkCar(Car):
 
     def show_speed(self):
         if self.speed > 40:
-            print('Over speed!')
+            return ('Over speed!')
         else:
             return self.speed
 
-class PoliceCar(Car):
+#class PoliceCar(Car):
 
-    def police_car(self):
-        if self.is_police: print('Give me your docs')
-        else: print('Drive calmly')
+    # def police_car(self):
+    #     if self.is_police: print('Give me your docs')
+    #     else: print('Drive calmly')
+#class SportCar(Car):
 
 Car1 = TownCar(50, 'Ford', 'Violet', False)
 print(Car1.get_name_color())
 print(Car1.show_speed())
+Car1.go()
 
-
-Car2 = PoliceCar(50, 'Audi', 'Red', True)
+Car2 = WorkCar(50, 'Audi', 'Red', True)
 print(Car2.get_name_color())
 print(Car2.show_speed())
-print(Car2.police_car())
+Car2.turn_direction()
+Car2.stop()
 
-Car3 = PoliceCar(80, 'Toyota', 'Black', False)
+Car3 = Car(80, 'Toyota', 'Black', False)
 print(Car3.get_name_color())
 print(Car3.show_speed())
-print(Car3.police_car())
+Car3.turn_direction()
+Car3.go()
