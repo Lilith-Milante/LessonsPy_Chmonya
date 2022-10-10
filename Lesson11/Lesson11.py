@@ -104,4 +104,4 @@ for i in values:
 print(mins.result())
 print(maxs.result())
 print(average.result())
-print(type(average.result())) # <class 'numpy.float6'>
+print(type(average.result())) # <class 'numpy.float64'>
