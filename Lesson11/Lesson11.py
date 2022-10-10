@@ -90,8 +90,6 @@ class AverageStat:
 
     def result(self):
         return numpy.average(self.list)
-        #return self.list_1
-
 
 values = [1, 2, 3, 4, 5]
 
@@ -101,9 +99,9 @@ average = AverageStat()
 for i in values:
     mins.add_number(i)
     maxs.add_number(i)
-    #numpy.average.add_number(i)
+    average.add_number(i)
 
 #print(mins.result(), maxs.result(), '{}'.format(numpy.average.result()))
 print(mins.result())
 print(maxs.result())
-print(numpy.average.result())
+print(average.result())
