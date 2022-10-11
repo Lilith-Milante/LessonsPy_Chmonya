@@ -1,3 +1,5 @@
+import datetime as dt
+
 # Список в обратном порядке
 
 class ReversedList:
@@ -16,8 +18,8 @@ rl = ReversedList([10, 20, 30])
 for i in range(len(rl)):
     print(rl[i])
 
-
 exit()
+
 # Калорийность
 
 class FoodInfo:
@@ -56,3 +58,19 @@ food3 = food1 + food2
 
 print(food3.get_proteins(), food3.get_fats(),\
       food3.get_carbohydrates(), food3.get_calories())
+
+# Реализуйте класс Date, экземпляры которого при инициализации принимают месяц и день
+
+class Date:
+    def __init__(self, month, day):
+        self.month = month
+        self.day = day
+
+    def __sub__(self, other):
+        day1 = dt.date(2021, self.month, self.day)
+        day2 = dt.date(2021, other.month, other.day)
+        return str(day2 - day1).split()[0]
+
+day1 = Date(1, 5)
+day2 = Date(1, 1)
+print(day2 - day1)
