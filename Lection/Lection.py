@@ -112,4 +112,4 @@ print(list_1.append(11)) # добавление элемента в конец
 print(list_1)
 
 from decimal import Decimal
-print(Decimal(str(нужноечисло)).as_tuple().exponent*(-1)) - узнать кол-во знаков после запятой
+#print(Decimal(str(нужноечисло)).as_tuple().exponent*(-1)) # узнать кол-во знаков после запятой

@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b36e39-047e-4506-a292-5c6c22eb03bc" name="Changes" comment="create project and add solutions">
+      <change afterPath="$PROJECT_DIR$/OOP_H7/hot_drink_heir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_H7/input_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_H7/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_H7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_H7/request_drink.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lection/Lection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lection/Lection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson7_HW/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_H7/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson7_HW/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_H7/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson7_HW/main" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_H7/hot_drink.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8_HW/info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8_HW/info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8_HW/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8_HW/log.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +49,7 @@
     "Project.color": "53035e",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Projects",
+    "last_opened_file_path": "D:/Курс Разработчик/II Четверть/01 Знакомство с языком Python/Семинары/LessonsPy_Chmonya",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -426,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665509914751</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="create project and add solutions">
+      <created>1670016460436</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1670016460436</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
